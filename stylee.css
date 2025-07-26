@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* font style add */
 .noto-serif-font {
   font-family: "Noto Serif", serif;
@@ -11,6 +10,37 @@
 
 .inter-font {
   font-family: "Inter", sans-serif;
+}
+
+/* shared Style */
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Noto Serif", serif;
+}
+
+.description{
+    font-size: 1.3758rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+}
+
+.orange{
+    color: rgb(233, 90, 8);
+}
+
+.btn-primary{
+    padding: 19px 80px;
+    color:white;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    font-weight: 600;
 }
 
 /* nav Style */
@@ -65,38 +95,7 @@
     align-items: center;
 }
 
-/* shared Style */
-.max-width{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.title{
-    font-size: 3.125rem;
-    font-weight: bold;
-    color: #000000;
-    font-family: "Noto Serif", serif;
-}
-
-.description{
-    font-size: 1.3758rem;
-    color: rgba(0, 0, 0, 0.5);
-    font-family: "Inter", sans-serif;
-}
-
-.orange{
-    color: rgb(233, 90, 8);
-}
-
-.btn-primary{
-    padding: 19px 80px;
-    color:white;
-    background-color: rgb(233, 90, 8);
-    border: none;
-    font-weight: 600;
-}
-
- /* Our Plants */
+/* Our Plants */
 
 .plants-content{
     text-align: center;
@@ -107,6 +106,7 @@
 #plant-m{
     margin-bottom: 16px;
 }
+
 
 .flower-name,.price{
     font-size: 1.375rem;
@@ -142,6 +142,11 @@
 }
 
 /* <!-- Lover section --> */
+
+
+
+
+
 .lover-container{
     display: flex;
     align-items: center;
@@ -150,6 +155,8 @@
 .lover-img-container{
     position: relative;
 }
+
+
 
 
 /* extra try animation */
@@ -161,9 +168,6 @@
         transform: rotate(360deg);
     }
 }
-
-
-
 
 .badge{
     position: absolute;
@@ -177,8 +181,6 @@
     margin: 20px 0;
     margin-left: 25px;
 }
-
-
 
 /* Latest section */
 
@@ -310,18 +312,6 @@ input:focus{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query */
 @media screen and (max-width:576px) {
     .nav-container , .banner-content , .lover-container{
@@ -371,6 +361,9 @@ input:focus{
     .lover-img-container img{
         width: 100%;
     }
+
+
+
 
     /*  Latest section */
 

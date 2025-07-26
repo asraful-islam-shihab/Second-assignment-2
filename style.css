@@ -193,7 +193,7 @@
 }
 
 .box_1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("B12A02-Responsive-Flowers/assets/deal-bloom.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../B12A02-Responsive-Flowers/assets/deal-bloom.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -201,7 +201,7 @@
 }
 
 .box_2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("B12A02-Responsive-Flowers/assets/deal-ana.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../B12A02-Responsive-Flowers/assets/deal-ana.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,7 +210,7 @@
 
 .box{
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("B12A02-Responsive-Flowers/assets/deal-zabo.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../B12A02-Responsive-Flowers/assets/deal-zabo.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -252,7 +252,7 @@
 
 /* THIS PART IS join section */
 .join{
-    background-image: url(B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

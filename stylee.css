@@ -45,3 +45,57 @@
 .nav-cart a i{
     margin-right: 10px;
 }
+
+/* banner Style */
+
+.banner-title{
+    font-size: 4.06rem;
+    margin-bottom: 13px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+
+/* shared Style */
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Noto Serif", serif;
+}
+
+.description{
+    font-size: 1.3758rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+}
+
+.orange{
+    color: rgb(233, 90, 8);
+}
+
+.btn-primary{
+    padding: 19px 80px;
+    color:white;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    font-weight: 600;
+}
+
+
+
+/* media query */
+@media screen and (max-width:576px) {
+    .nav-container , .banner-content , .lover-container{
+        margin: 1.25rem 1rem;
+    }
+    .navbar{
+        display:none;
+    }

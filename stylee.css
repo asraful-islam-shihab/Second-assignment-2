@@ -134,6 +134,16 @@
     margin-top: 49px;
 }
 
+/* <!-- Lover section --> */
+.lover-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.lover-img-container{
+    position: relative;
+}
+
 
 
 
